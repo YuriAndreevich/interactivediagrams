@@ -1,12 +1,14 @@
 {
   "name": "interactivediagrams",
+  "homepage": "https://YuriAndreevich.github.io/interactivediagrams/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",

@@ -1,6 +1,7 @@
 import "./App.scss";
 import { Select } from "@chakra-ui/react";
 import backImages1 from "./img/backImages1.png";
+import MyModal from "./components/Modal/MyModal";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
 
         <Select variant="outline" placeholder="Выберите схему">
           <option value="option1" color="#000">
+            {/* <MyModal /> */}
             Схема 1
           </option>
           <option value="option1">Схема 2</option>
