@@ -14,7 +14,7 @@ function MyModal(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <div onClick={onOpen}>{props.children}</div>
+      <Button onClick={onOpen}>{props.children}</Button>
 
       <Modal isOpen={isOpen} onClose={onClose} size="full">
         <ModalOverlay />
