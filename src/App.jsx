@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { Select } from "@chakra-ui/react";
 import backImages1 from "./img/backImages1.png";
 
@@ -25,15 +25,17 @@ function App() {
       </div>
       <div className="choose">
         <h1>
-          Интерактивный плакат для подготовки по специальности "Оператор
+          Интерактивная книга для подготовки по специальности "Оператор
           технологических установок"
         </h1>
 
         <Select variant="outline" placeholder="Выберите схему">
-          <option value="option1">Option 1</option>
-          <option value="option1">Option 1</option>
-          <option value="option1">Option 1</option>
-          <option value="option1">Option 1</option>
+          <option value="option1" color="#000">
+            Схема 1
+          </option>
+          <option value="option1">Схема 2</option>
+          <option value="option1">Схема 3</option>
+          <option value="option1">Схема 4</option>
         </Select>
       </div>
     </div>
