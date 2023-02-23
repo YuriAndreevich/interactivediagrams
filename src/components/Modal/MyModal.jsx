@@ -9,12 +9,13 @@ import {
   useDisclosure,
   Button
 } from "@chakra-ui/react";
+import '../dropdown/dropdown.scss'
 
 function MyModal(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <div onClick={onOpen}>{props.children}</div>
+      <div  className={props.classname} onClick={onOpen}>{props.children}</div>
 
       <Modal isOpen={isOpen} onClose={onClose} size="full">
         <ModalOverlay />
