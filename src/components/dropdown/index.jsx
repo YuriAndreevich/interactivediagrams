@@ -20,25 +20,25 @@ function Dropdown() {
               <menu>
                 <MyModal
                   classname="menuitem"
-                  src="https://view.genial.ly/625ea251d05c83001818866b/"
+                  src="https://view.genial.ly/625ea251d05c83001818866b"
                 >
                   <a>Блок регенерации МЭА</a>
                 </MyModal>
                 <MyModal
                   classname="menuitem"
-                  src="https://view.genial.ly/625ea29d271fd60011653002/"
+                  src="https://view.genial.ly/625ea29d271fd60011653002"
                 >
                   <a>Блок очистки ВСГ</a>
                 </MyModal>
                 <MyModal
                   classname="menuitem"
-                  src="https://view.genial.ly/625ea2a0bf830200180763c0/"
+                  src="https://view.genial.ly/625ea2a0bf830200180763c0"
                 >
                   <a>Блок стабилизации </a>
                 </MyModal>
                 <MyModal
                   classname="menuitem"
-                  src="https://view.genial.ly/62432a8d9bdb220018f33271/"
+                  src="https://view.genial.ly/62432a8d9bdb220018f33271"
                 >
                   <a>Реакторный блок</a>
                 </MyModal>
@@ -50,13 +50,13 @@ function Dropdown() {
               <menu>
                 <MyModal
                   classname="menuitem"
-                  src="https://view.genial.ly/63a09167beb20c0012ff5826/"
+                  src="https://view.genial.ly/63a09167beb20c0012ff5826"
                 >
                   <a>Вакуумная колонна ВТ-1</a>
                 </MyModal>
                 <MyModal
                   classname="menuitem"
-                  src="https://view.genial.ly/63aa8e6e12e4fc0018bbc3b0/"
+                  src="https://view.genial.ly/63aa8e6e12e4fc0018bbc3b0"
                 >
                   <a>Подогрев сырья ВТ-1</a>
                 </MyModal>
@@ -64,7 +64,7 @@ function Dropdown() {
             </div>
             <MyModal
               classname="menuitem"
-              src="https://view.genial.ly/63d0cd3bd9cd0c00198e181f/"
+              src="https://view.genial.ly/63d0cd3bd9cd0c00198e181f"
             >
               <a>Татарей</a>
             </MyModal>
