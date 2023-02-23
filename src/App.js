@@ -23,9 +23,8 @@ function App() {
 
     return (<ActiveModal src={e.target.value} />)
   }}
-      {/* <ActiveModal src="https://view.genial.ly/63d0cd3bd9cd0c00198e181f" /> */}
-      <div className="backgroundSchemas">
-        <MyModal src="https://view.genial.ly/63d0cd3bd9cd0c00198e181f/">
+      <div className="backgroundSchemas2">
+        {/* <MyModal src="https://view.genial.ly/63d0cd3bd9cd0c00198e181f/">
           <div className="backcontainer">
             <img className="backImg1" src={backImages1} alt="" />
           </div>
@@ -44,7 +43,10 @@ function App() {
           <div className="backcontainer">
             <img className="backImg1" src={backImages4} alt="" />
           </div>
-        </MyModal>
+        </MyModal> */}
+        <img className="backImg2" src={backImages1} alt="" />
+        <img className="backImg2" src={backImages2} alt="" />
+        <img className="backImg2" src={backImages3} alt="" />
       </div>
       <div className="choose">
         <h1>
