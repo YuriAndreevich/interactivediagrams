@@ -5,7 +5,6 @@ import backImages3 from "./img/backImages3.png";
 import backImages4 from "./img/backImages4.png";
 import MyModal from "./components/Modal/MyModal";
 import React, { useRef } from "react";
-import ActiveModal from "./components/ActiveModal";
 import Dropdown from "./components/dropdown";
 
 function App() {
